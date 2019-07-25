@@ -1,7 +1,11 @@
 {
   "name": "@claudiucelfilip/wavelet-faucet",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A React component to tap into the Wavelet Faucet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claudiucelfilip/wavelet-faucet"
+  },      
   "main": "build/index.js",
   "scripts": {
     "start": "webpack --watch",
