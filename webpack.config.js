@@ -33,7 +33,8 @@ module.exports = {
   },
   mode: 'development',
   devtool: 'source-map',
-  externals: {
-    'react': 'commonjs react' 
-  }
+  externals: [
+    'styled-components',
+    'react'
+  ]
 };

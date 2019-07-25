@@ -56,7 +56,7 @@ const Modal = ({
         <>
             {open && (
                 <ModalBackdrop className="modal-backdrop" onClick={onClose}>
-                    <ModalWrapper className="modal-wrapper" top={top} onClick={preventEventBubbling}>
+                    <ModalWrapper className="modal-wrapper" onClick={preventEventBubbling}>
                         <ModalHeader className="modal-header" justifyContent="space-between">
                             <ModalCloseButton className="modal-close-button" onClick={onClose}/>
                         </ModalHeader>

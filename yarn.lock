@@ -713,6 +713,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@claudiucelfilip/wavelet-faucet@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@claudiucelfilip/wavelet-faucet/-/wavelet-faucet-1.0.2.tgz#3901c98d5f7660876d554eba676e9b0187f23cc7"
+  integrity sha512-DZUucnUrkLPXC7d/L5Yd8ft4tDyCHUIT2ya+X7qCQMVPsK4ZG8NPjST/ROwg4C0Hlzdc4iLpuFfcmi1XLDQ99Q==
+
 "@emotion/is-prop-valid@^0.8.1":
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.2.tgz#b9692080da79041683021fcc32f96b40c54c59dc"
@@ -1138,7 +1143,7 @@ babel-plugin-dynamic-import-node@^2.3.0:
   dependencies:
     object.assign "^4.1.0"
 
-"babel-plugin-styled-components@>= 1":
+"babel-plugin-styled-components@>= 1", babel-plugin-styled-components@^1.10.6:
   version "1.10.6"
   resolved "https://registry.yarnpkg.com/babel-plugin-styled-components/-/babel-plugin-styled-components-1.10.6.tgz#f8782953751115faf09a9f92431436912c34006b"
   integrity sha512-gyQj/Zf1kQti66100PhrCRjI5ldjaze9O0M3emXRPAN80Zsf8+e1thpTpaXJXVHXtaM4/+dJEgZHyS9Its+8SA==
